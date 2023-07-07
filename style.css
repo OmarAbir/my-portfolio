@@ -20,12 +20,14 @@ body {
   color: var(--dark-01, #181818);
   font-size: 30px;
   font-weight: 700;
+  text-align: center;
 }
 .section-description {
   color: #757575;
   text-align: center;
   font-size: 18px;
   font-weight: 400;
+  text-align: center;
 }
 
 /* nav related styles  */
@@ -105,6 +107,22 @@ main {
   display: flex;
   justify-content: space-around;
 }
-.info-title{
-    margin-bottom: -5px;
+.info-title {
+  margin-bottom: -5px;
+}
+#experience-des {
+  padding: 30px 150px;
+}
+
+/* what i do related styles  */
+.skills-container {
+  display: flex;
+  justify-content: center;
+}
+.skill-card {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  margin-right: 25px;
+  padding: 30px;
 }
