@@ -15,6 +15,7 @@ body {
   font-weight: 700;
   cursor: pointer;
   border-radius: 5px;
+  font-size: 18px;
 }
 .section-title {
   color: var(--dark-01, #181818);
@@ -94,6 +95,9 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+main section{
+  margin-top: 130px;
+}
 
 /* about section style  */
 .about {
@@ -125,4 +129,32 @@ main {
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   margin-right: 25px;
   padding: 30px;
+}
+
+/* resume related styles  */
+.resume-container{
+  display: flex;
+  gap: 24px;
+padding: 20px;
+  
+}
+.resume-title{
+  color:  #474747;
+font-size: 20px;
+font-weight: 700;
+}
+.resume-item-title{
+  color:#757575;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: -16px;
+}
+.resume-info{
+  color:  #757575;
+font-size: 17px;
+font-weight: 600;
+}
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
 }
